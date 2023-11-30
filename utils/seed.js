@@ -1,5 +1,3 @@
-// ????????????????
-
 const { User, Thought, Reaction } = require("../models");
 const mongoose = require("mongoose");
 
@@ -10,7 +8,6 @@ const users = [
     username: "Ryan",
     email: "ryan@gmail.com",
     thought: [],
-
   },
 ];
 
@@ -40,3 +37,4 @@ connection.once("open", async () => {
   console.info("Seeding complete! 🌱");
   process.exit(0);
 });
+
